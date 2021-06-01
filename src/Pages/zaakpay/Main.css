@@ -1,0 +1,212 @@
+.leftm{
+    width: 50%;
+    margin-left: 210px;
+    margin-top: 110px;
+
+}
+.firstline{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    width: 70%;
+    color: rgb(44, 44, 59);
+
+}
+.secondline{
+    width: 76%;
+
+}
+.main{
+    margin-top: 140px;
+}
+
+.mainb{
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    background: #f8f9ff
+
+}
+.right{
+    width: 50%;  
+    float: left;
+    margin-left: 55%;
+    margin-top: -300px;
+    height: 300px;
+
+}
+.rightimage{
+    width: 420px;
+}
+.first{
+    height: 80px;
+}
+.second{
+    height: 55px;
+    margin-left: 30px;
+}
+.third{
+    height: 70px; width: 150px;
+}
+.scrollsection{
+    margin-top: 150px;
+}
+.thirdsection{
+    margin-top: 50px;
+    margin-left: 200px;
+    
+}
+.thirdtitle{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+.leftcard{
+    width: 20%;
+    text-align: left;
+    float: left;
+}
+.rightcard{
+width: 80%;
+float: left;
+text-align: left;
+padding-left: 30px;
+font-size:small
+}
+
+.cards1{
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;-style: ridge;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    transition: 0.3s;
+    float: left;
+}
+.cards1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.cards2{
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;-style: ridge;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    transition: 0.3s;
+    left: 50px;
+}
+.cards2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  } 
+.cards3{
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;-style: ridge;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    transition: 0.3s;
+    float: left;
+    margin-top: 36px;
+}
+.cards3:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      } 
+    
+.cards4{
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;-style: ridge;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgb(250, 246, 246);
+    transition: 0.3s;
+    margin-top: 36px;
+    left: 50px;
+    
+}
+.cards4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.cardtitle{
+    color: rgb(29, 85, 170);
+    font-weight: bold;
+}
+body{
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .right{
+        display: none;
+    }
+    .leftm{
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 0px;
+        
+    
+    }
+    .firstline{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: xx-large;
+        width: 80%;
+    
+    }
+    .secondline{
+        width: 82%;
+    }
+    .thirdsection{
+        margin-top: 50px;
+        margin-left: 0px;
+        
+    }
+    .cards1{
+        width: 370px;
+        padding-top: 20px;
+        right: 27px;
+        padding-bottom: 20px;-style: ridge;
+        height: 150px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        transition: 0.3s;
+    }
+    .cards2{
+        width: 370px;
+        padding-top: 20px;
+        padding-bottom: 20px;-style: ridge;
+        height: 150px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        transition: 0.3s;
+        margin-left: -27px;
+        top: 40px;
+        
+    }
+    .cards3{
+        width: 370px;
+        padding-top: 20px;
+        right: 27px;
+        padding-bottom: 20px;-style: ridge;
+        height: 150px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        transition: 0.3s;
+        float: left;
+        top: 40px;
+    }
+    .cards4{
+        width: 370px;
+        padding-top: 20px;
+        margin-left: -27px;
+        padding-bottom: 20px;-style: ridge;
+        height: 150px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        transition: 0.3s;
+        float: left;
+        top: 40px;
+    }
+ 
+
+}
+
+
+
+

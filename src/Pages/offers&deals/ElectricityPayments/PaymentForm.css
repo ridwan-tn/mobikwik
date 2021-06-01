@@ -1,0 +1,63 @@
+.background-color{
+    background: #002447;
+}
+.wrappper{
+    padding: 24px;
+    border-radius: 4px;
+    width: 97%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.form-wrappper{
+    background:  white;
+    padding: 2px 16px 16px 16px;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+}
+.electricity-payment-heading{
+    font-size: 21px;
+    font-weight: 400;
+    margin-right: 1rem;
+}
+
+.go-button{ 
+    margin-top:  30px;
+    padding: 13px 16px !important;
+}
+.dropdown{
+    padding: 6px !important;
+    border:1px solid #ebebeb;
+    border-radius: 4px;
+}
+.dropdown-menu{
+    transform: translate(0px, 54px) !important;
+    width: 420px !important;
+}
+.dropdown-button::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f107" !important ;
+    border-top: none;
+}
+.label{
+    font-size: 11px;
+    font-weight: 500;
+    color: grey;
+}
+.k-number::placeholder{
+  color:rgb(194, 194, 194);
+}
+
+@media(max-width:900px){
+    .wrappper{ 
+        margin-top: 0px;
+        margin-left: 0px;
+        width:100%;
+    }
+    .go-button{
+        width: 100% !important;
+    }
+    .dropdown-menu{
+        width: 240px !important;
+    }
+}

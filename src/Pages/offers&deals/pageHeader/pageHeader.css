@@ -1,0 +1,83 @@
+.header-row{
+    margin-top: 14px;
+}
+.header-text{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #404040;
+}
+.form-control{
+    padding: 13px 16px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.form-group{
+    position: relative;
+}
+.offer-active{
+    background-color: #0073cf !important;
+    color: white !important;
+    font-size: 11px;
+}
+.active:hover{
+    color: white ;
+}
+.button{
+    position: absolute;
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    right: 10px;
+    top:10px
+}
+.offer-links{
+    font-size: 11px !important;
+    color: #404040 ;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn:active{
+    box-shadow: none;
+}
+.header-link{
+
+    overflow: hidden;
+}
+.links{
+    width: 100% !important;
+}
+.input{
+    height: 50px !important;
+    font-weight: 400 !important;
+}
+
+@media only screen and (max-width: 1080px){
+    .background{
+        background: #002447;
+        position: relative;
+        height: 150px;
+    }
+    .header-row{
+        margin-top: 0px;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+    }
+    .header-link{
+        position: relative;
+        top: 35px;
+        left: 40px;   
+    }
+    .header-text{
+        color: white;
+    }
+    .form-div{
+        display: none !important;
+    }
+   .links{
+        display: flex;
+        align-items: center;
+    }
+}

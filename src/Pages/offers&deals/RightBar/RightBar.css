@@ -1,0 +1,97 @@
+
+.bgcolor{
+    background: #002447 !important;
+}
+.right-bar{
+   display: none;
+   justify-content: flex-end;
+   z-index: 10;
+  position: fixed;
+}
+.width250{
+    width: 275px;
+    position: relative;
+    top:0px;
+    right:-25px !important;
+}
+
+.top-section{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+.right-bar-logo {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.right-bar-headings{
+    width: 100%;
+    margin-left: 15px;
+}
+.top-branding-section{
+    width: 100%;
+    display: flex;
+}
+.right-bar-heading{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px!important;
+    color: white;
+}
+.sub-heading{
+    font-size: 13px;
+    color: white;
+}
+.right-bar-buttons{
+    display: flex;   
+    align-items: center;
+}
+.btn-primary{
+    width: 120px !important;
+    height: 35px !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    background: linear-gradient(145deg,#2fa7ea 0,#0578cf 100%) !important;
+}
+.btn-outline-light{
+    width: 120px !important;
+    height: 35px !important;
+    margin-left: 5px;
+}
+.btn-outline-light:hover{
+    opacity: 0.5;
+    background: transparent;
+    color: white;
+}
+
+.right-bar-options{
+    list-style: none;
+    padding: 0;
+}
+
+.right-bar-link{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    color: #404040 !important;
+    padding: 15px 0 15px 5px !important;
+}
+.noflex{
+    display: block !important;
+}
+.height{
+    height: 80vh;
+    background: white;
+}
+
+.blue-hover{
+    width: 250px;
+}
+
+
+.blue-hover:hover{
+    background-color: rgba(47, 169, 234, 0.096);
+    border-radius: 4px;
+}

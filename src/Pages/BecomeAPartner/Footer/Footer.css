@@ -1,0 +1,244 @@
+.footer {
+  background: #3f3f3f;
+  color: white;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-links {
+  color: #b6b6b6;
+  font-size: 14px;
+  display: block;
+  text-align: left;
+  line-height: 30px;
+  text-decoration: none;
+  transition: 0.2s all ease-in;
+  font-family: Nunito, sans-serif;
+}
+.nav-links:hover {
+  color: #b6b6b6 !important;
+  padding-left: 5px;
+}
+.container {
+  max-width: 1000px !important;
+}
+.footer-wrappper {
+  padding-top: 40px;
+  margin-top: 6rem;
+}
+.footer-links-wrapper {
+  margin-top: 15px;
+}
+.footer-links-heading {
+  margin-top: 20px;
+}
+.footer-links {
+  margin-top: 5px;
+}
+.social-links {
+  background: url(https://promotions.mobikwik.com/style/images/header-footer/connect.png)
+    no-repeat scroll;
+  display: inline-block;
+  margin-right: 5px;
+  width: 25px;
+  height: 26px;
+}
+.social-links:nth-child(2) {
+  background-position: -33px 0;
+}
+.social-links:nth-child(3) {
+  background-position: -66px 0;
+}
+.social-links:nth-child(4) {
+  background-position: -100px 0;
+}
+.social-links:nth-child(5) {
+  background-position: -134px 0;
+}
+.social-links:nth-child(6) {
+  background-position: -168px 0;
+}
+
+.verified-links {
+  background: url(https://promotions.mobikwik.com/style/images/header-footer/verified.png)
+    no-repeat scroll;
+  display: inline-block;
+  height: 43px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+.verified-links:nth-child(1) {
+  background-position: -4px 0;
+  width: 58px;
+}
+
+.verified-links:nth-child(2) {
+  background-position: -67px 0;
+  width: 70px;
+}
+.verified-links:nth-child(3) {
+  width: 70px;
+  background-position: -132px;
+}
+.footer-links-wrapper:nth-child(1):before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  background: #3fa7ba;
+  position: relative;
+  bottom: 15px;
+  z-index: 5;
+}
+.footer-links-wrapper:nth-child(2):before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  background: #eab715;
+  position: relative;
+  bottom: 15px;
+  z-index: 5;
+}
+.footer-links-wrapper:nth-child(3):before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  background: #fb705d;
+  position: relative;
+  bottom: 15px;
+  z-index: 5;
+}
+
+.footer-links-wrapper:nth-child(4):before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  background: #df54e4;
+  position: relative;
+  bottom: 15px;
+  z-index: 5;
+}
+
+.footer-links-verified:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  background: #87bc26;
+  position: relative;
+  bottom: 15px;
+  z-index: 5;
+}
+
+/* made with love by mobkwick */
+.footer-greetings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #878787;
+  border-bottom: 1px solid #878787;
+}
+.footer-greetings p {
+  color: #878787;
+  font-style: normal;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+}
+.heart-icon {
+  background: url(https://promotions.mobikwik.com/style/images/header-footer/heart1.png)
+    no-repeat scroll center center;
+  display: inline-block;
+  width: 30px;
+  height: 26px;
+  vertical-align: middle;
+}
+/* made with love by mobkwick */
+
+/* logo in footer  */
+.low-footer {
+  height: 70px;
+  padding-bottom: 10px;
+}
+.footer-logo {
+  background: url(https://promotions.mobikwik.com/style/images/header-footer/mobikwik-logo.png)
+    no-repeat left center;
+  width: 135px;
+  background-size: 95px auto;
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 15px 0px;
+  border-right: 1px solid #878787;
+  opacity: 0.2;
+}
+.low-footer-item {
+  position: relative;
+}
+.low-footer-item span {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  font-size: 13px;
+  color: #878787;
+}
+
+/* app links */
+.app:nth-child(1) {
+  background: url(https://promotions.mobikwik.com/style/images/header-footer/store.png)
+    no-repeat scroll;
+  display: inline-block;
+  margin: 0 3px;
+  width: 15px;
+  height: 17px;
+  background-position: -24px -4px;
+}
+.app:nth-child(2) {
+  background: url(https://promotions.mobikwik.com/style/images/header-footer/store.png)
+    no-repeat scroll;
+  display: inline-block;
+  margin: 0 3px;
+  background-position: -1px -1px;
+  width: 17px;
+  height: 21px;
+}
+.low-footer-apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.low-footer-apps span {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  display: block;
+  font-size: 13px;
+  padding-bottom: 4px;
+  color: #878787;
+}
+.powered-by-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.powered-by-wrapper span {
+  font-size: 13px;
+  color: #878787;
+}
+.powered-by {
+  background: url(https://promotions.mobikwik.com/style/images/header-footer/logo-zaakpay-2.png)
+    no-repeat scroll left center/100%;
+  display: inline-block;
+  margin: 0 3px;
+  width: 77px;
+  height: 40px;
+}
+/* app links */

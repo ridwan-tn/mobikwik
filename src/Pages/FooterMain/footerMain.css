@@ -1,0 +1,59 @@
+.main {
+  background: rgb(247, 247, 247);
+  width: 80.5em;
+  margin-left: -0.5em;
+}
+.footer-heading {
+  font-family: Bahnschrift;
+  color: dark grey;
+  width: 11em;
+}
+
+.containers {
+  max-width: 100rem;
+}
+
+.footer-first {
+  padding-left: 1.5em;
+}
+
+.footer-menu-items {
+  color: grey;
+  display: block;
+  line-height: 22px;
+  text-decoration: none;
+  width: 15em;
+  font-size: 12px;
+}
+
+.footer-second {
+  background: rgb(234, 235, 237);
+  width: 100%;
+  margin-left: 0em;
+}
+.footer-second-2 {
+  background: rgb(0, 36, 71);
+  width: 100%;
+  margin-left: 0em;
+}
+
+.help {
+  margin-left: -3em;
+}
+
+.verified {
+  margin-left: -2em;
+}
+
+.para {
+  font-family: Bahnschrift light;
+  font-size: 1em;
+  text-align: center;
+  color: black;
+}
+.para-1 {
+  font-family: Bahnschrift light;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}

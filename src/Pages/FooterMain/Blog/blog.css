@@ -1,0 +1,259 @@
+.Head{
+  font-size: small;
+  color: rgb(131, 124, 124);
+  font-weight: bold;
+  padding-left: 20px;
+}
+.blogmain{
+  height: 2500px;
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.cont{
+  margin-left: 50px;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.blogfirstimg{
+    width: 225px;
+    margin-left: 430px;
+    margin-top: 20px;
+}
+.blogfirstpara{
+    margin-left: 420px;
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(12, 12, 247);
+    font-weight: 500;
+}
+.blogsecondpara{
+  font-size: 11px;
+  margin-left: 419px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: rgb(153, 147, 147);
+}
+.blogsecondpara1{
+  color: rgb(12, 12, 247);;
+}
+.blogsecondhead{
+  font-weight: bold;
+  margin-left: 400px;
+  font-size: 23px;
+}
+.likebtn{
+  font-size:small;
+  width:67px;
+  height:23px;
+  padding:0px;
+  border-style: groove;
+  border-color:#ebeae8;
+  color: blue;
+  margin-left: 520px;
+  margin-top: 12px;
+}
+.blogthirdpara{
+  text-align: center;
+  width: 520px;
+  font-size: small;
+  font-weight:500;
+  color: rgb(94, 88, 88);
+  margin-left: 300px;
+}
+.readbtn{
+  color: blue;
+  font-size: xx-small;
+  border-radius: 20px;
+  width: 115px;
+  margin-left: 505PX;
+  height: 26px;
+  font-weight: bold;
+}
+.posts{
+  width: 20rem;
+  margin-left:40px;
+  margin-top: 30px;
+  border: none;
+}
+.postimg{
+  height:240px;
+}
+.postsp{
+  font-size:10px;
+  font-weight:Bold;
+  margin-top:18px;
+  color:#8f8b8d;
+  margin-left:5px;
+}
+.postshead{
+  font-weight: bolder;
+  font-size: 19px;
+  margin-left: 1px;
+}
+.postbtn{
+  font-size:x-small;
+  width:53px;
+  height:19px;
+  padding:0px;
+  border-style: groove;
+  border-color:#ebeae8;
+  color: blue;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.postpara{
+  font-size: 11px;
+  font-weight: 500;
+  color:#524d50;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+.postread{
+  color: blue;
+  font-size: 8px;
+  border-radius: 20px;
+  width: 115px;
+  margin-left: 5PX;
+  height: 24px;
+  font-weight: bold;
+  margin-top: 3px;
+
+}
+.olderpost{
+  color: rgb(241, 241, 247);
+  font-size: 13px;
+  border-radius: 20px;
+  width: 325px;
+  margin-left: 410PX;
+  height: 34px;
+  font-weight: bold;
+  margin-top: 73px;
+  background-color: #0044cc;
+
+}
+.responsivenav{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+  .blogfirstimg{
+    width: 225px;
+    margin-left: 96px;
+    margin-top: 20px;
+}
+.blogfirstpara{
+    margin-left: 74px;
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(12, 12, 247);
+    font-weight: 500;
+}
+.blogsecondpara{
+  font-size: 11px;
+  margin-left: 73px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: rgb(153, 147, 147);
+}
+.blogsecondpara1{
+  color: rgb(12, 12, 247);;
+}
+.blogsecondhead{
+  font-weight: bold;
+  margin-left: 66px;
+  font-size: 21px;
+}
+.likebtn{
+  font-size:small;
+  width:67px;
+  height:23px;
+  padding:0px;
+  border-style: groove;
+  border-color:#ebeae8;
+  color: blue;
+  margin-left: 170px;
+  margin-top: 12px;
+}
+.blogthirdpara{
+  text-align: center;
+  width: 410px;
+  font-size: 12px;
+  font-weight:500;
+  color: rgb(94, 88, 88);
+  margin-left: 0px;
+}
+.readbtn{
+  color: blue;
+  font-size: xx-small;
+  border-radius: 20px;
+  width: 100px;
+  margin-left: 150PX;
+  height: 26px;
+  font-weight: bold;
+}
+.posts{
+  width: 24rem;
+  margin-left:0px;
+  margin-top: 30px;
+  border: none;
+}
+.postimg{
+  height:290px;
+}
+.blogmain{
+  height: 5800px;
+}
+
+.olderpost{
+  color: rgb(241, 241, 247);
+  font-size: 11px;
+  border-radius: 20px;
+  width: 385px;
+  margin-left: 14PX;
+  height: 36px;
+  font-weight: bold;
+  margin-top: 73px;
+  background-color: #0044cc;
+
+}
+.Head{
+  display: none;
+}
+.responsivenav{
+  display: block;
+}
+
+ 
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row-container{
+    width: 85% !important;
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    color: #404040;
+    overflow: hidden;
+}
+.container-fluid{
+        padding-right:0;
+     padding-left: 0; 
+     margin-right: 0; 
+     margin-left: 0;
+     overflow: hidden;
+}
+@media(max-width:1081px){
+    .row-container{
+        width: 107% !important;
+        display: flex;
+        color: #404040;
+        float: none;
+    }
+}

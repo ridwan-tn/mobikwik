@@ -1,0 +1,21 @@
+.contactsection{
+    margin-left: 230px;
+    width: 100%;
+    background-color: white;
+    
+  }
+  @media screen and (max-width: 600px) {
+    .contactsection{
+      margin-left: -14px;
+      height: 800px;
+      
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-last{
+display: none; 
+
+    }
+  }
+ 

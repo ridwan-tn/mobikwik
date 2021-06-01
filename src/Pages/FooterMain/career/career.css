@@ -1,0 +1,29 @@
+.careersection{
+    margin-left: 270px;
+    width: 100%;
+    background-color: white;
+
+  }
+  .firstpara{
+    font-size: small;
+  
+  }
+  .th1{
+    font-size: small;
+    width: 140px;
+  }
+  .tb1{
+    background:#fff;
+    height:30px;
+    width:80px;
+    font-size:x-small;
+    color:blue;
+    margin-left:90px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .careersection{
+      margin-left: 0px;
+      width: 440px;
+    }
+  }

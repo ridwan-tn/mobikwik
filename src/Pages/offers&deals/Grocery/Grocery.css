@@ -1,0 +1,124 @@
+.component-heading{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+
+.carousel_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    padding: 25px 0px;
+    
+}
+
+.card_container{
+    display: flex;
+    transform: translate(-667px);
+}
+/* carousel controls */
+.buttons{
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.prev-btn {
+    background: transparent;
+    outline: none;
+    color: #1689D6;
+    background: #f7f7f7;
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+}
+.next-btn{
+    background: transparent;
+    outline: none;
+    color: #1689D6;
+    background: #f7f7f7;
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+}
+.prev-btn::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600;
+     content: "\f104";
+}
+.next-btn::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+     content: "\f105";
+}
+.prev-btn:hover{
+  
+    background: #f0f0f0;;
+}
+.next-btn:hover{
+    background: #f0f0f0;;
+}
+.see-all-btn{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 11px;
+    padding: 4px 11px;
+    border: 1px solid #0073cf;
+    border-radius: 4px;
+    height: 25px;
+    color: #0073cf;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    background: blue;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
+   
+}
+
+@keyframes animate
+{
+    0%{
+        width: 0;
+        height: 0;
+        opacity: 0.5;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        opacity:0;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    body{
+        background: #E9EBF0 !important;
+    }
+.card_container {
+    transform: translate(0px);
+}
+.buttons .prev-btn ,.next-btn{
+    display: none;
+}
+.buttons{
+    width:120px;
+    margin-right: 35px !important;
+}
+}
+/* carousel controls */
+
+/* swipeable */ 
+
+.react-swipeable-view-container div::-webkit-scrollbar{
+    display:none;
+}
+/* swipeable */ 

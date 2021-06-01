@@ -1,0 +1,21 @@
+.navigation-bar{
+   background: #394e5d ;
+   position: fixed;
+    box-sizing: border-box;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.navbar-wrapper{
+    max-width: 1045px;
+    margin: auto;
+}
+.logo{
+    display: block;
+    background: url(https://promotions.mobikwik.com/files/images/seller-images/logo-main-3.png) no-repeat 1px -2px;
+    width: 126px;
+    height: 32px;
+    background-size: 100% 100%;
+    margin-bottom: 5px;
+}

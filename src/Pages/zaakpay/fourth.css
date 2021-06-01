@@ -1,0 +1,509 @@
+.fourthtitle{
+    margin-top: 120px;
+    text-align: center;
+    font-style: bold;
+    width: 450px;
+}
+.fourthpara{
+    text-align: center;
+    margin-top: 10px;
+    width: 570px;
+}
+.greet1{
+    width: 260px;
+    padding-bottom: 10px;-style: ridge;
+    height: 78px;
+    box-shadow: 0 2px 4px 0 rgb(243, 239, 239);
+    border-radius: 60px;
+    transition: all .3s;
+    float: left;
+    background-color:#f9f9f9;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.lgreet{
+    width: 84%;
+    text-align: left;
+    padding-top: 10px;
+    float: left;
+    font-size:small
+}
+.rgreet{
+width: 16%;
+height: 170%;
+float: left;
+padding-left: 8px;
+background-color: rgb(192, 221, 238);
+border-radius: 90%;
+align-items: center;
+}
+.rimage{
+    height: 27px;
+    margin-top: 8px;
+    margin-right: 4px;
+}
+
+.for{
+    margin-top: 80px;
+}
+.one{
+    width: 35%;
+    float: left;
+}
+
+.greet2{
+    width: 260px;
+    padding-bottom: 10px;-style: ridge;
+    height: 78px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    border-radius: 60px;
+    transition: 0.3s;
+    float: left;
+    background-color:#f9f9f9;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.greet3{
+    width: 260px;
+    padding-bottom: 10px;-style: ridge;
+    height: 78px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    border-radius: 60px;
+    transition: 0.3s;
+    float: left;
+    background-color:#f9f9f9;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.greet4{
+    width: 260px;
+    padding-bottom: 10px;-style: ridge;
+    height: 78px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    border-radius: 60px;
+    transition: 0.3s;
+    float: left;
+    background-color:#f9f9f9;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.bgimg{
+    height: 380px;
+    width:370px;
+    margin-top: 90px;
+    margin-left: 35px;
+}
+.two{
+    float: left;
+}
+
+.slgreet{
+    width: 79%;
+    text-align: left;
+    padding-top: 10px;
+    float: left;
+    font-size:small;
+    padding-left: 25px;
+}
+.srgreet{
+width: 21%;
+height: 170%;
+float: left;
+padding-left: 8px;
+background-color: rgb(192, 221, 238);
+border-radius: 90%;
+align-items: center;
+}
+
+.greet5{
+    width: 260px;
+    padding-bottom: 10px;-style: ridge;
+    height: 78px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    border-radius: 60px;
+    transition: 0.3s;
+    background-color:#f9f9f9;
+    top: 50px;
+}
+.greet6{
+    width: 260px;
+    padding-bottom: 10px;-style: ridge;
+    height: 78px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    border-radius: 60px;
+    transition: 0.3s;
+    background-color:#f9f9f9;
+    top: 97px;
+    left: 65px;
+}
+.greet7{
+    width: 260px;
+    padding-bottom: 10px;-style: ridge;
+    height: 78px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    border-radius: 60px;
+    transition: 0.3s;
+    background-color:#f9f9f9;
+    left: 65px;
+    top: 150px;
+}
+.greet8{
+    width: 260px;
+    padding-bottom: 10px;-style: ridge;
+    height: 78px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    border-radius: 60px;
+    transition: 0.3s;
+    background-color:#f9f9f9;
+    top: 190px;
+}
+.fifthsection{
+    padding-top: 150px;
+}
+.fourthtitle{
+  width: 450px;
+}
+
+
+.fcardtitle{
+    color: rgb(29, 85, 170);
+    font-weight: bold;
+}
+.fleftcard{
+    width: 20%;
+    text-align: left;
+    float: left;
+}
+.frightcard{
+width: 80%;
+float: left;
+text-align: left;
+padding-left: 30px;
+font-size:small
+}
+.fcards1{
+    width: 300px;
+    padding-top: 8px;
+    padding-bottom: 20px;-style: ridge;
+    height: 180px;
+    box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+    transition: 0.3s;
+    float: left;
+    margin-top: 40px;
+}
+
+.fcards1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .fcards{
+      padding-left: 140px;
+  }
+
+  .sixthtitle{
+      clear: left;
+      text-align: center;
+      font-style: bold;
+  }
+  .sixthsection{
+      background-color: rgb(241, 247, 252);
+      width: 100%;
+      height: 600px;
+      margin-top: 530px;
+      padding-top: 50px;
+  }
+  .imgsix{
+      width: 43px;
+      height: 34px;
+  }
+  .cbody{
+      margin-top: 12px;
+  }
+  .sixthcard{
+      border: none;
+      background:  rgb(241, 247, 252);
+      width: 109px;
+      margin-left: 9px;
+      float: left;
+  }
+  .sixthcard1{
+    border: none;
+    background:  rgb(241, 247, 252);
+    width: 109px;
+    margin-left: 9px;
+    float: left;
+  }
+  .sixthcard2{
+    border: none;
+    background:  rgb(241, 247, 252);
+    width: 109px;
+    margin-left: 9px;
+    float: left;
+  }
+ 
+
+  .sixb{
+      margin-top: 15px;
+      margin-left: 5px;
+  }
+  .sixb1{
+    margin-top: 15px;
+    margin-right: 7px;
+  }
+  .sixthbtn{
+      float: left;
+      margin-top: 10px;
+      margin-right: 13px;
+  }
+  .sbtn{
+      width: 90px;
+      height: 40px;
+  }
+  .sixthsection1{
+      padding-left: 430px;
+      padding-top: 40PX;
+  }
+  .cardtitle2{
+    color: rgb(29, 85, 170);
+    width: 200px;
+  }
+.twocard1{
+    background:  rgb(241, 247, 252);
+    border: none;
+    left: 100px;
+    top: 50px;
+    width: 400px;
+    float: left;
+  }
+.cardpara{
+      margin-top: 50px;
+        width: 300px;
+
+  }
+.twocard{
+    clear: left;
+  }
+  .secondcardimg{
+    margin-left: 200px;  
+  }
+  .secondcardbody{
+      left:200px
+  }
+  .sixthcardsm{
+      display: none;
+  }
+  .seventhc{
+      display: none;
+  }
+
+  
+@media only screen and (max-width: 600px) {
+    .fourthsection{
+        margin-top: 500px;
+    }
+    .greet1{
+        width: 290px;
+        padding-bottom: 10px;-style: ridge;
+        height: 73px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        border-radius: 60px;
+        transition: 0.3s;
+        background-color:#f9f9f9;
+        margin-top: 0px;
+        right: 196px;
+    }
+    .greet2{
+        width: 290px;
+        padding-bottom: 10px;-style: ridge;
+        height: 73px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        border-radius: 60px;
+        transition: 0.3s;
+        background-color:#f9f9f9;
+        margin-top: 20px;
+        right: 113px;
+    }
+    .greet3{
+        width: 290px;
+        padding-bottom: 10px;-style: ridge;
+        height: 73px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        border-radius: 60px;
+        transition: 0.3s;
+        background-color:#f9f9f9;
+        margin-top: 20px;
+        right: 113px;
+    }
+    .greet4{
+        width: 290px;
+        padding-bottom: 10px;-style: ridge;
+        height: 73px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        border-radius: 60px;
+        transition: 0.3s;
+        background-color:#f9f9f9;
+        margin-top: 20px;
+        right: 196px;
+    }
+    .greet5{
+        width: 290px;
+        padding-bottom: 10px;-style: ridge;
+        height: 73px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        border-radius: 60px;
+        transition: 0.3s;
+        background-color:#f9f9f9;
+        left: 88px;
+        top: 20px;        
+    }
+    .greet6{
+        width: 290px;
+        padding-bottom: 10px;-style: ridge;
+        height: 73px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        border-radius: 60px;
+        transition: 0.3s;
+        background-color:#f9f9f9;
+        left: 88px;
+        top: 40px;
+     
+    }
+    .greet7{
+        width: 290px;
+        padding-bottom: 10px;-style: ridge;
+        height: 73px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        border-radius: 60px;
+        transition: 0.3s;
+        background-color:#f9f9f9;
+        left: 88px;
+        top: 60px;
+        
+    }
+    .greet8{
+        width: 290px;
+        padding-bottom: 10px;-style: ridge;
+        height: 73px;
+        box-shadow: 0 4px 8px 0 rgb(229, 226, 226);
+        border-radius: 60px;
+        transition: 0.3s;
+        background-color:#f9f9f9;
+        left: 88px;
+        top: 80px;
+        
+    }
+    .for{
+        margin-top: 50px;
+    }
+    .one{
+        width: 80%;
+    }
+    .two{
+        display: none;
+    }
+    .fourthtitle{
+        width: 380px;
+    }
+    .fourthpara{
+        text-align: center;
+        margin-top: 10px;
+        width: 430px;
+        font-size:14px;
+        margin-top: 23px;
+    }
+    .rgreet{
+        width: 19%;
+        height: 170%;
+        float: right;
+        padding-left: 8px;
+        background-color: rgb(192, 221, 238);
+        border-radius: 90%;
+        align-items: center;
+    }
+    .lgreet{
+        width: 81%;
+        text-align: left;
+        padding-top: 10px;
+        float: right;
+        font-size:small;
+        padding-left: 25px;
+    
+    }
+    .rimage{
+        height: 27px;
+        margin-top: 8px;
+        margin-right: 4px;
+    }
+    .fourthtitle{
+        width: 450px;
+      }
+      .fifthsection{
+        padding-top: 60px;
+    }
+    .fcards{
+        padding-left: 20px;
+    }
+    .sixthsection{
+        margin-top: 1430px;
+        padding-top: 50px;
+    }
+    
+    .sixthsection{
+        background-color: rgb(241, 247, 252);
+        width: 100%;
+        height: 1020px;
+        padding-top: 50px;
+    }
+    .sixthsection1{
+        padding-left: 57px;
+        padding-top: 40PX;
+    }
+    .sbtn{
+        width: 390px;
+        height: 50px;
+        margin-left: -45px;
+    }
+    .sixthcard1{
+       margin-left: 50px;
+    }
+    .sixthcard2{
+        margin-left: 50px;
+      }
+      .twocard{
+        clear: left;
+      }
+      .seventh{
+          margin-top: 300px;
+      }
+      .twocard1{
+        left: -40px;
+        top: 50px;
+        width: 470px;
+      }
+      .cardtitle2{
+          width: 100%;
+          font-size: 23px;
+      }
+      .cardpara{
+          width: 420px;
+          text-align: center;
+          margin-left: -32px;
+      }
+      .sixthcards{
+          display: none;
+      }
+      .sixthcardsm{
+        display: block;
+    }
+    .seventh{
+        margin-top: 0px;
+    }
+    .seventhb{
+        display: none;
+    }
+    .seventhc{
+        display: block;
+    }
+
+
+}
+

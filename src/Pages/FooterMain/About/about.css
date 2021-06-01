@@ -1,0 +1,49 @@
+.firstsection{
+    margin-left: 380px;
+    width: 67%;
+    height: 1800px;
+    background: #fff;
+  }
+  .firstimage{
+    width: 900px;
+    height: 270px;
+  }
+  .secondsection{
+    width: 92%;
+    background: #f8fbff;
+    margin-top: 30px;
+    height: 1150px;
+  }
+  @media only screen and (max-width: 600px) {
+    body{
+      background: #fff;
+    }
+    .firstsection{
+      margin-left: 0%;
+    
+    }
+    .firstimage{
+      width: 410px;
+      height: 270px;
+      margin: 6%;
+    }
+    .firstsection1{
+      width: 630px;
+      font-size: small;
+      padding-right: 180px;
+    }
+    .secondsection{
+      width: 80%;
+      background: #f8fbff;
+      margin-top: 30px;
+      height: 4400px;
+      margin-left: 100px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-last {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,15 @@
+@media(max-width:1081px){
+    .row-component{
+        margin-top: 20px;
+    }
+    .width200{
+        width: 200px !important;
+    }
+}
+@media(max-width:701px){
+    .card-items{
+        display: flex;
+        justify-content: center;
+    }
+   
+}

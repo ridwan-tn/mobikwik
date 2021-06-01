@@ -1,0 +1,14 @@
+.navigation{
+    background: #002447 ;
+    width: 225px;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    
+}
+@media(max-width:1081px){
+    .navigation{
+        display: none;
+        transform: translate(-225px);
+    }
+    }
